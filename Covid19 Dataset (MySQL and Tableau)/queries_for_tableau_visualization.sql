@@ -1,4 +1,6 @@
 
+Tableau Public Dashboard URL " https://public.tableau.com/app/profile/adnan.chowdhry2764/viz/portfolio_wb/Dashboard1?publish=yes " 
+
 select sum(new_cases) as total_cases, sum(cast(new_deaths as signed)) as total_deaths, sum(cast(new_deaths as signed)) / sum(new_cases)*100 as DeathPercentage from covid_deaths
 where continent is not null
 -- group by date
