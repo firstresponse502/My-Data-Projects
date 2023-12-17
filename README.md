@@ -4,7 +4,7 @@ Description: The capstone project, titled 'Cyber Threat Intelligence Sharing by 
                                                                     
 Car and Bike Sales Dataset (Excel and IBM Cognos)
 
-Description: These personal projects focused on analyzing data to provide insights for car and bike sales departments. Leveraging the pivot table functionality in Excel, I created charts and visualized them in dashboards within Excel and IBM Cognos.
+Description: This personal project focused on analyzing data to provide insights for car and bike sales departments. Leveraging the pivot table functionality in Excel, I created charts and visualized them in dashboards within Excel and IBM Cognos.
 
 Chicago Dataset (Python, SQL Magic, and SQLite)
 
@@ -17,6 +17,10 @@ Description: This project aimed at gaining experience in MySQL and Tableau visua
 SEEK Job Market Dataset (Python, Pandas, NumPy, Matplotlib, Seaborn)
 
 Description: This significant project played a crucial role in enhancing my data analytics skills during my final year of studies in the Master of Information Technology program. Working with a substantial dataset of over 300k samples from SEEK Job Market, I applied various Python libraries for tasks such as connecting to data, describing the data, cleaning the data, understanding the data, analyzing the data, and visualizing the data. The skills acquired during this project include proficiency in Python, Pandas, NumPy, Matplotlib, and Seaborn.
+
+Company Employee Dataset ( MS Excel )
+
+Description: This project aimed at cleaning, analyzing and visualizing data of employees from an organization which is based in India and Newzealand. After performing more than 25 operations on data I have enhanced my skills in transforming data using Power Query, data analysis using Pivot tables and formulas, and presenting insights using charts.
 
 
 
