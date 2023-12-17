@@ -1,0 +1,26 @@
+
+1. Transformed the NZ and INDIA data of the organization into tables and adjust the cell size according to the values.
+2. Changed the table names for enhanced readability, simplification of formulas, and provides dynamic adaptability.
+3. Added total row at the end and implemented average and sum function with dollar sign.
+4. Applied date format to some vlaues which are in number type into date type.
+5. Opened the NZ staff table in power query and add a column "Country" with "NZ" values. Same implementation for INDIA staff table.
+6. Appended both queries into a new query and name it "Staff".
+7. Removed duplicate values using Name column.
+8. Replaced null values to other in Gender column.
+9. Removed rows with null values.
+10. Created connection to queries and then loaded the staff query into fresh spreadsheet as a table.
+11. Opened the staff query in power query again and changed the date joined type to date.
+12. Calculated values in section 1 using formulas.
+13. Applied XLOOKUP in Section 2 to find the employee records.
+14. Applied Transpose function to diplay the record in vertical.
+15. Applied SORT, CHOOSECOLS, FILTER function in section 3 (info finder) to get the name, rating and the salary of employees from a department.
+16. Used pivot table to build the comparison between male and female in section 4 (male vs female).
+17. Applied a slicer to show the results according to countries.
+18. Created a bonus column in the All STAFF spreadsheet using a formula. 
+19. Performed salary distribution data analysis using histogram and box plot chart in salary spread tab. 
+20. Used Pivot table to look into salary and rating relationship in salary vs rating tab.
+21. Performed salary vs rating analysis using scatter plot.
+22. Rating string values are converted to numberic values using maping table and rating as number column created using xlookup formula for scatter plot.
+23. Analyzed company growth in relation to employees using pivot table and line chart.
+24. Calculated running total of the company growth in terms of employees using formulas in tab "yearly hiring trend".
+25. Created scorecard for employees of both countries to show comparison.
