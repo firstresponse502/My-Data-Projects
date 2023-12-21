@@ -22,6 +22,10 @@ Company Employee Dataset ( MS Excel )
 
 Description: This project aimed at cleaning, analyzing and visualizing data of employees from an organization which is based in India and Newzealand. After performing more than 25 operations on data I have enhanced my skills in transforming data using Power Query, data analysis using Pivot tables and formulas, and presenting insights using charts.
 
+ETL Implimentation using Power Query ( MS Excel )
+
+Description: This project utilized the process of extract, transform and load (ETL) data from multiple sources in Power Query to make connections to data, Shape data to meet the needs for analysis while the original source remains unchanged, Integrate data from multiple sources to get a unique view into the data, Complete the query, load it into a worksheet or Data Model and periodically refresh it. 
+
 
 
 

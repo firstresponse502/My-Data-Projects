@@ -1,0 +1,62 @@
+
+Loading, cleaning and analysing employee data example.
+
+1. Removed top 2 null rows.
+2. Promoted the first row as header.
+3. Undo the automatic data type changed by Power Query by deleting the particular step in applied steps query settings.
+4. Replaced the NULL values to Other in Gender column.
+5. Replaced NULL values to Engineering in Department column.
+6. Removed null values in Salary column by unchecking it in the filter.
+7. Extracted the country name from the Location column using "Column from examples" in the Add Column menu tab.
+8. The above task have added the column with country names and set the column name "Country".
+9. Close & Load in PQ Employee Data tab.
+10. Performed data analysis using "Summarize with pivot table" in pivot Employee Data tab.
+11. Edited the data query and extracted the year from the start date column after changing the data type to date.
+
+Scraping web data example: https://en.wikipedia.org/wiki/List_of_states_in_India_by_past_population
+
+1. Loaded the data in the Power query window using from other sources option in Get Data -> From Other Sources.
+2. Removed top and bottom rows, as well as changed data type step.
+3. Removed Rank column.
+4. Selected State column and clicked Unpivot other columns.
+5. Extracted year from the attribute column by using extract text between delimiters option.
+6. Called the new columns Year and Population.
+7. Addressed the N/A values in Population column by changing the column values to whole number type and then removed the errored values.
+8. Close and load in PQ Wiki India Pop Data tab.
+
+Consolidated .xlsx files to Power Query
+
+1. Loaded the data by copying the folder path in whicht he files are situated and then selected from folder option in Get Data -> From File.
+2. In Power Query navigator screen, selected combine and transform data option.
+3. Replaced the first column in Power Query to Project and replaced the .xlsx value in every cell to empty string.
+4. Used transform sample file in helper queries to add a custome column "Date" using a formula.
+5. Close and Load.
+
+Joining two or more tables - Merge and Append
+
+1. Loaded the student and courses data from the .xlsx file and pressed transform data.
+2. The above task loaded 3 queries because the data is in 3 different tabs.
+3. Added custome column "Year" in Year 11 and Year 12 queries with formula ="Year 11" and ="Year 12" respectively.
+4. Selected one query and then selected Append queries.
+5. Renamed the query Students becasue now it has students from both years.
+6. Selected Students query and then clicked merge query where selected courses table.
+7. Selected Course column where merge would take place and then selected Join kind "Left outer".
+
+Query Referencing: Filtering female students on 3 or more credit courses
+
+1. BY right clicking the Students table selected reference option to create another Students table.
+2. Named this table Female Students and filter out Gender column to Female, as well as filter credits column to Number filters to greater than or equals to 3.
+3. Created a group "Support Queries" and dragged all queries which are used to formulate Female Students query.
+4. Clicked close and load to then selected only create connections.
+5. Right clicked Female Students connection -> load to -> Table, as well as new worksheet.
+ 
+
+
+
+
+
+
+
+
+
+
