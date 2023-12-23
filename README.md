@@ -26,6 +26,10 @@ ETL Implimentation using Power Query ( MS Excel )
 
 Description: This project utilized the process of extract, transform and load (ETL) data from multiple sources in Power Query to make connections to data, Shape data to meet the needs for analysis while the original source remains unchanged, Integrate data from multiple sources to get a unique view into the data, Complete the query, load it into a worksheet or Data Model and periodically refresh it. 
 
+ETL Data using CSV file in Power Query and Reporting ( MS Excel )
+
+Description: This project utilized the process of extract, transform and load (ETL) data from CSV file in power query and summarized the data further through pivot table and line Chart.
+
 
 
 
